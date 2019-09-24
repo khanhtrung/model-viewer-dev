@@ -1,0 +1,164 @@
+#gallery .relar [data-hide-on-relar] {
+    display: none;
+}
+
+.violator {
+	margin-bottom: 0.5em;
+}
+
+.section-reality a,
+.section-models a {
+	display: inline-block;
+	margin-top: 4em;
+}
+
+.section-examples a {
+	display: inline-block;
+}
+
+span.block-link {
+	margin-top: 1em;
+	color: #0070c9;
+    cursor: pointer;
+}
+
+span.block-link:hover {
+	text-decoration: underline;
+}
+
+.ar-icon {
+	width: 1.2em;
+	height: 1.2em;
+	margin: -10px 0.12em 0;
+}
+
+.image-model {
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+}
+
+.image-example {
+	margin: 4em auto 1em;
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	background-size: 250px 250px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.example-furni {
+	background-image: url("/augmented-reality/quick-look/images/bb-atoll.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .example-furni {
+        background-image: url("/augmented-reality/quick-look/images/bb-atoll_2x.png");
+    }
+}
+
+.example-instantpot {
+	background-image: url("/augmented-reality/quick-look/images/instantpot.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .example-instantpot {
+        background-image: url("/augmented-reality/quick-look/images/instantpot_2x.png");
+    }
+}
+
+.example-horne {
+	background-image: url("/augmented-reality/quick-look/images/horne.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .example-horne {
+        background-image: url("/augmented-reality/quick-look/images/horne_2x.png");
+    }
+}
+
+.example-purecycles {
+	background-image: url("/augmented-reality/quick-look/images/pure-cycles.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .example-purecycles {
+        background-image: url("/augmented-reality/quick-look/images/pure-cycles_2x.png");
+    }
+}
+
+.example-bethesda {
+	background-image: url("/augmented-reality/quick-look/images/bethesda.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .example-bethesda {
+        background-image: url("/augmented-reality/quick-look/images/bethesda_2x.png");
+    }
+}
+
+.example-nomatic {
+	background-image: url("/augmented-reality/quick-look/images/nomatic.png");
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi) {
+    .example-nomatic {
+        background-image: url("/augmented-reality/quick-look/images/nomatic_2x.png");
+    }
+}
+
+@media only screen and (max-width: 735px) {
+	.section-reality a,
+	.section-models a {
+		margin-top: 1em;
+	}
+	.image-example {
+		margin: 1em auto;
+	}
+}
+
+
+/* ========== Grid ========== */
+#main section.section {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+#main section.section.section-hero {
+	padding-bottom: 0;
+}
+#main section .section-content.divider-bottom {
+	padding-bottom: 4em;
+}
+#main section .section-content .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+#main section .section-content .row > .column {
+	padding: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+	#main section .section-content .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#main section .section-content .row > .column {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	#main section.section {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+	#main section.section.section-hero {
+		padding-bottom: 0;
+	}
+	#main section .section-content.divider-bottom {
+		padding-bottom: 2em;
+	}
+	#main section .section-content .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#main section .section-content .row > .column {
+		padding: 1em 0;
+	}
+}
